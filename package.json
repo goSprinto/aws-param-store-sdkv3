@@ -26,19 +26,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vandium-io/aws-param-store.git"
+    "url": "https://github.com/goSprinto/aws-param-store-sdkv3.git"
   },
   "engines": {
-    "node": ">=8.10"
+    "node": ">=18.13.0"
   },
   "author": "Vandium Software Inc.",
   "license": "BSD-3-Clause",
-  "dependencies": {},
-  "peerDependencies": {
-    "aws-sdk": "*"
+  "dependencies": {
+    "@aws-sdk/client-ssm": "^3.319.0"
   },
+  "peerDependencies": {},
   "devDependencies": {
-    "aws-sdk": "^2.584.0",
     "chai": "^4.1.2",
     "mocha": "^6.2.2",
     "nyc": "^14.1.1",

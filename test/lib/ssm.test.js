@@ -26,7 +26,7 @@ describe( 'lib/ssm', function() {
 
         SSM = proxyquire( '../../lib/ssm', {
 
-            'aws-sdk': AWSStub
+            '@aws-sdk/client-ssm': AWSStub
         });
     });
 
