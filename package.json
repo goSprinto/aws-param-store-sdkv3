@@ -34,7 +34,7 @@
   "author": "Vandium Software Inc.",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@aws-sdk/client-ssm": "^3.319.0"
+    "@aws-sdk/client-ssm": "^3.438.0"
   },
   "peerDependencies": {},
   "devDependencies": {
